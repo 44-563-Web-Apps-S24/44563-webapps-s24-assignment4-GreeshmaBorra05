@@ -30,12 +30,12 @@
 /* Styles for character names */
 .POAPOVA {
     color: red; /* Example color for character Popova */
-    font-family: :'Courier New';
+    font-family: 'Courier New';
     font-size:80%;
 }
 
 .LUKA {
     color: blue; /* Example color for character Luka */
-    font-family: :'monospace';
+    font-family: 'monospace';
     font-size:medium;
 }
