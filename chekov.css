@@ -1,5 +1,3 @@
-
-
 .speech {
     font-family: Arial, sans-serif;
     font-size: small;
@@ -38,3 +36,26 @@
     font-family: 'monospace';
     font-size:medium;
 }
+/* chekov.css */
+
+/* Style for the cast table */
+.cast-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cast-table th, .cast-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.cast-table th {
+    background-color: #f2f2f2;
+}
+
+.cast-table tbody tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
