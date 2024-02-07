@@ -1,41 +1,89 @@
-.speech {
-    font-family: Arial, sans-serif;
-    font-size: small;
-    color: black;
+.speech{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+color:black;  
 }
-
-
-.direction {
-    font-family: Georgia, serif;
-    font-size: 80%;
-    color: black;
-    background-color: yellow; /* Light background color for directions */
+.dir{
+    font-family:monospace;
+    font-size: 16px;
+    color:black;
+    background-color:#D8BFD8;
 }
-
-
-.direction:hover {
-    background-color: lightblue; /* Change background color on hover */
-    color:rgb(234, 79, 89); /* Change text color on hover */
+.dir:hover{
+    color:red;
+    background-color: aqua;
 }
-.name{
-    font-family:fantasy;
-    font-size:small;
-    text-shadow:2.2px 1.8px 4.5pxrgba(20,241t,86,0.473);
-
-}
-
-/* Styles for character names */
-.POAPOVA {
-    color: red; /* Example color for character Popova */
-    font-family: 'Courier New';
-    font-size:80%;
-}
-
-.LUKA {
-    color: blue; /* Example color for character Luka */
-    font-family: 'monospace';
+.POPOA{
+    font-style:italic;
+    color:blue;
     font-size:medium;
 }
+.LUKA{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:pink;
+font-size:medium;
+}
+.name.POPOA:hover{
+  color:firebrick;
+  text-shadow: 3px 3px 4px blue;
+  border : 2px dashed orange;
+}
+.name.LUKA:hover{
+  color:lightseagreen;
+ 
+  text-shadow: 3px 3px 6px darkred;
+  border : 2px dashed blue;
+}
+.tb,th,td{
+    border:3px solid;
+    color:black;
+    text-align:center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+th{
+    color:crimson;
+}
+th, td {
+    padding: 10px;
+    
+  }
+  tr:nth-child(even) {
+    background-color:#D8BFD8;
+}
+
+.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:brown;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .material-icons{
+color:red;
+  }
 
 
  .table{
