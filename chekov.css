@@ -1,0 +1,31 @@
+/* chekov.css */
+
+/* Style for spoken text */
+.speech {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+/* Style for stage directions */
+.direction {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    color: black;
+    background-color: lightyellow; /* Light background color for directions */
+}
+
+/* Hover effect on stage directions */
+.direction:hover {
+    background-color: lightblue; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Styles for character names */
+.POAPOVA {
+    color: red; /* Example color for character Popova */
+}
+
+.LUKA {
+    color: blue; /* Example color for character Luka */
+}
