@@ -1,13 +1,12 @@
-/* chekov.css */
 
-/* Style for spoken text */
+
 .speech {
     font-family: Arial, sans-serif;
     font-size: small;
     color: black;
 }
 
-/* Style for stage directions */
+
 .direction {
     font-family: Georgia, serif;
     font-size: 80%;
@@ -15,7 +14,7 @@
     background-color: yellow; /* Light background color for directions */
 }
 
-/* Hover effect on stage directions */
+
 .direction:hover {
     background-color: lightblue; /* Change background color on hover */
     color:rgb(234, 79, 89); /* Change text color on hover */
