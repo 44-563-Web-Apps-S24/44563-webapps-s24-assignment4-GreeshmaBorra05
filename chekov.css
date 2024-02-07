@@ -39,11 +39,8 @@
 
 .cast-table {
     border-collapse: collapse;
-    width: 100%;
-    margin-top: 20px;
-    margin-left: auto; /* Center the table horizontally */
-    margin-right: auto; /* Center the table horizontally */
-    margin-bottom: 20px;
+    width: 80%;
+    margin: 20px auto; 
 }
 
 .cast-table th, .cast-table td {
@@ -56,8 +53,14 @@
     background-color: #f2f2f2;
 }
 
-.cast-table tbody tr:nth-child(even) {
-    background-color: #dddddd;
+.cast-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
 }
+
+.cast-table tbody td:nth-child(even) {
+    background-color: #f0f0f0;
+ }
+
+    
 
 
