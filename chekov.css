@@ -43,13 +43,13 @@
     border-spacing: 3;
     width: 80%;
     margin: 20px 40px 65px;
-    border: 1.25px solid #16e816;
+    border: 1.25px solid #e81616;
 }
 
 th, td {
     text-align: left;
     padding: 20px;
-    border: 1.25px solid #f30c0c;
+    border: 1.25px solid #3a0cf3;
   }
 
 tr:nth-child(even) {
