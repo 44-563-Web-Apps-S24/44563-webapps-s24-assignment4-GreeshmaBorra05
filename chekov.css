@@ -36,13 +36,14 @@
     font-family: 'monospace';
     font-size:medium;
 }
-/* chekov.css */
 
-/* Style for the cast table */
 .cast-table {
     border-collapse: collapse;
     width: 100%;
     margin-top: 20px;
+    margin-left: auto; /* Center the table horizontally */
+    margin-right: auto; /* Center the table horizontally */
+    margin-bottom: 20px;
 }
 
 .cast-table th, .cast-table td {
@@ -58,4 +59,5 @@
 .cast-table tbody tr:nth-child(even) {
     background-color: #dddddd;
 }
+
 
